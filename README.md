@@ -26,6 +26,47 @@ R.A.I.D. empowers users—from students to seasoned professionals—by giving th
 
 **Use at your own risk and responsibility.**
 
+Get the repository
+------------------
+Choose one of the options below.
+
+Option 1: Use the terminal (Git)
+--------------------------------
+1. Open PowerShell and go to the folder where you want the project.
+2. Run these commands:
+
+```
+git clone https://github.com/3ch0foxy/R.A.I.D.git
+cd R.A.I.D
+python -m pip install --upgrade pip
+python -m pip install -r raid\requirements.txt
+python -m pip install -e raid
+```
+
+Option 2: Download from the website (no Git needed)
+---------------------------------------------------
+1. Go to https://github.com/3ch0foxy/R.A.I.D
+2. Click the green "Code" button.
+3. Click "Download ZIP".
+4. Extract the ZIP file.
+5. Open PowerShell inside the extracted folder and run:
+
+```
+python -m pip install --upgrade pip
+python -m pip install -r raid\requirements.txt
+python -m pip install -e raid
+```
+
+```
+git clone https://github.com/3ch0foxy/R.A.I.D.git
+cd R.A.I.D
+python -m pip install --upgrade pip
+python -m pip install -r raid\requirements.txt
+python -m pip install -e raid
+```
+
+The repository includes the `htb/` folder with sample Windows Event Logs so beginners can try the tool right away without hunting for log files.
+
 Quick start
 -----------
 Install development dependencies and the package in editable mode (creates the `raid` console command):
